@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_color">#ffffff</color>
+    <color name="white_text_color">#eeeeee</color>
+    
+    <color name="button_shape_pressed_start_color">#88e2ff</color>
+    <color name="button_shape_pressed_end_color">#88e2ff</color>
+    <color name="button_shape_focused_stroke_color">#5e7974</color>    
+    <color name="button_shape_focused_color">#58857e</color>
+    <color name="button_shape_default_start_color">#00a2d8</color>    
+    <color name="button_shape_default_end_color">#007095</color> 
+    
+    <color name="button_play_pressed_start_color">#88e2ff</color>
+    <color name="button_play_pressed_end_color">#88e2ff</color>
+    <color name="button_play_focused_stroke_color">#5e7974</color>    
+    <color name="button_play_focused_color">#58857e</color>
+    <color name="button_play_default_start_color">#00b5f1</color>    
+    <color name="button_play_default_end_color">#0099cb</color> 
+    
+    <color name="button_stop_pressed_start_color">#88e2ff</color>
+    <color name="button_stop_pressed_end_color">#88e2ff</color>
+    <color name="button_stop_focused_stroke_color">#5e7974</color>    
+    <color name="button_stop_focused_color">#58857e</color>
+    <color name="button_stop_default_start_color">#00b5f1</color>    
+    <color name="button_stop_default_end_color">#0099cb</color> 
+    
+</resources>

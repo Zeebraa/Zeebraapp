@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RecorderActivity$DummySectionFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll" >
+    </LinearLayout>
+
+    <com.example.zeebraapp.VisualizerView
+        android:id="@+id/visualizerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/time"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_above = "@+id/ll"
+        android:layout_centerHorizontal="true" 
+        android:textSize="26sp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/zeebraaLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/visualizerView"
+        android:contentDescription="@string/zeebraa_logo_image"
+        android:layout_centerHorizontal="true" 
+        android:adjustViewBounds="true"
+        android:src="@drawable/zeebraa_web_not" />
+
+</RelativeLayout>

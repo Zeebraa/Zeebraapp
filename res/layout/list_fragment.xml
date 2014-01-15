@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingLeft="8dp"
+  android:paddingRight="8dp">
+
+  <ListView
+      android:id="@android:id/list"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="4"
+      android:drawSelectorOnTop="false"
+      android:choiceMode="singleChoice"            
+	  android:listSelector="@drawable/bg_key" />
+	   
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="vertical" >
+      
+      
+  <SeekBar
+      android:id="@+id/playSeekBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+       />
+      
+  <ImageButton
+      android:id="@+id/playButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/playSeekBar"
+      android:layout_centerHorizontal="true"
+      android:background="@drawable/play_button"
+      android:contentDescription="@string/play_image_button"
+      android:src="@android:drawable/ic_media_play" 
+      android:padding="5dp"
+      android:paddingLeft="10dp"/>
+      
+  </RelativeLayout>
+
+
+  
+</LinearLayout>

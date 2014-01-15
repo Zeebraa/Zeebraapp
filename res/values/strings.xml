@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zeebraapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_radio">Radio</string>
+    <string name="title_activity_recorder">Recorder</string>
+    <string name="title_activity_web">Zeebraa</string>
+    <string name="welcome_first_row">Hello.</string>
+    <string name="welcome_second_row">Welcome to Zeebraapp.</string>
+    <string name="play_image_button">Play</string>
+    <string name="zeebraa_logo_image">ZeebraaLogo</string>
+    <string name="menu_upload">Upload</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="tab_recorder">Recorder</string>
+    <string name="tab_player">Player</string>
+    <string name="folder_name">ZeebraaRecordings</string>
+    <string name="stop_button">Stop</string>
+    <string name="record_button">Record</string>
+    <string name="rename_dialog">Rename</string>
+    
+    
+    
+    
+    
+        
+    
+        
+    
+    
+    
+    
+
+</resources>
